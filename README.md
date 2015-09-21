@@ -14,7 +14,7 @@ Now `npm link anti-use-strict-mock` and try it again
 
 ```
 cd ..
-npm install anti-use-strict-mock
+git clone https://github.com/jayphelps/anti-use-strict-mock.git
 cd anti-use-strict-mock
 npm link
 cd ../browserify-bug
