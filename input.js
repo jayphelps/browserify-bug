@@ -1,0 +1,1 @@
+import 'anti-use-strict-mock';

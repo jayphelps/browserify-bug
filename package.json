@@ -1,0 +1,28 @@
+{
+  "name": "browserify-bug",
+  "version": "1.0.0",
+  "description": "Demos a bug with browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify input.js -t babelify --outfile output.js",
+    "start": "npm run build && node output.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayphelps/browserify-bug.git"
+  },
+  "author": "Jay Phelps <hello@jayphelps.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayphelps/browserify-bug/issues"
+  },
+  "homepage": "https://github.com/jayphelps/browserify-bug#readme",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.1.0"
+  },
+  "dependencies": {
+    "anti-use-strict-mock": "^0.1.0"
+  }
+}
